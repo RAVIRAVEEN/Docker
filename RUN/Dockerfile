@@ -1,2 +1,3 @@
-FROM centos:9
-RUN yum install nginx -y  
+FROM centos:8
+RUN  yum install nginx -y
+
