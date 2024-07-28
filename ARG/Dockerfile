@@ -4,6 +4,6 @@ RUN adduser ${username}
 USER ${username}
 ARG COURSE
 ARG DURATION 
-ENV ${COURSE}
-ENV ${DURATION}
+ENV COURSE = ${COURSE}
+ENV DURATION = ${DURATION}
 CMD [ "sleep", "100" ]
